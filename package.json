@@ -1,0 +1,37 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "app based on mean",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "node index",
+    "client-install": "npm install --prefix client",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \" npm run server \" \" npm run client \" "
+  },
+  "keywords": [
+    "angular",
+    "express.js"
+  ],
+  "author": "Roman Bienov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.9.1",
+    "multer": "^1.3.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}
