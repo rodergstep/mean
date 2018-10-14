@@ -10,7 +10,6 @@
 *.vi
 *~
 
-keys.js
 # OS or Editor folders
 .DS_Store
 ._*
@@ -35,3 +34,4 @@ bower_components
 node_modules/*
 assets/*
 src/*
+config/keys.js
